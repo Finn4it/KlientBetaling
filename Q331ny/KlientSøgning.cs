@@ -76,7 +76,7 @@ namespace Q331ny
             _Odbc = new ODBC() { OdbcNavn = "BZDSNT", };
 
             Db2Run run = new Db2Run(_Odbc , sqlQ );
-
+            run.RunQuery(_Odbc, sqlQ);
 
             //KlientOversigt k1 = new KlientOversigt(run.result);
 
