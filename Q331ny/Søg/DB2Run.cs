@@ -13,6 +13,8 @@ namespace Q331ny
     {
         private ODBC _odbc;
 
+        // test test
+
         public Db2Run(ODBC odbc , string sqlQ )
         {
             _odbc = odbc;
